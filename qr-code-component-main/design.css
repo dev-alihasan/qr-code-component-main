@@ -1,0 +1,56 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Lightgray: hsl(212, 45%, 89%);
+  --Grayishblue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--Lightgray);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--Grayishblue);
+}
+
+.container {
+  max-width: 252px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: var(--White);
+  box-shadow: 3px 3px 6px hsl(220deg 35% 55%);
+  padding: 18px;
+  border-radius: 17px;
+  text-align: center;
+  margin: 0 1em;
+  transition: transform 0.2s ease-in;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.attribution {
+  padding-top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--Darkblue);
+  text-decoration: none !important;
+}
